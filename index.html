@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DIGITAL KALTIM | Portal Informasi Digital</title>
+
+    <meta name="description" content="Portal informasi dan literasi digital Kalimantan Timur.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+        <h3>DIGITAL KALTIM</h3>
+        <p>Memuat halaman...</p>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="brand">
+            <div class="brand-icon">D</div>
+            <div class="brand-text">
+                DIGITAL<span>KALTIM</span>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" id="searchInput" placeholder="Cari informasi...">
+            </div>
+
+            <button class="mobile-menu-btn" id="menuToggle">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN LAYOUT -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" id="sidebar">
+
+            <div class="sidebar-label">
+                MENU UTAMA
+            </div>
+
+            <button class="nav-item active" data-page="dashboard">
+                <span class="nav-icon">▦</span>
+                <span>Dashboard</span>
+            </button>
+
+            <button class="nav-item" data-page="informasi">
+                <span class="nav-icon">◉</span>
+                <span>Informasi Digital</span>
+            </button>
+
+            <button class="nav-item" data-page="literasi">
+                <span class="nav-icon">▣</span>
+                <span>Literasi Digital</span>
+            </button>
+
+            <button class="nav-item" data-page="keamanan">
+                <span class="nav-icon">♢</span>
+                <span>Keamanan Siber</span>
+            </button>
+
+            <button class="nav-item" data-page="tentang">
+                <span class="nav-icon">ⓘ</span>
+                <span>Tentang Kami</span>
+            </button>
+
+            <div class="sidebar-bottom">
+                <div class="sidebar-info">
+                    <div class="info-icon">🌐</div>
+                    <div>
+                        <strong>Digital Kaltim</strong>
+                        <small>Portal Edukasi Digital</small>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content" id="mainContent">
+
+            <!-- DASHBOARD -->
+            <section class="page active" id="dashboard">
+
+                <div class="welcome-banner">
+
+                    <div class="welcome-content">
+                        <span class="eyebrow">
+                            PORTAL INFORMASI DIGITAL
+                        </span>
+
+                        <h1>
+                            Selamat Datang di<br>
+                            Digital Kaltim
+                        </h1>
+
+                        <p>
+                            Jelajahi informasi teknologi, wawasan digital,
+                            dan edukasi untuk masyarakat Kalimantan Timur.
+                        </p>
+
+                        <button class="primary-button shortcut-btn"
+                            data-page="informasi">
+                            Jelajahi Informasi →
+                        </button>
+                    </div>
+
+                    <div class="welcome-illustration">
+                        <div class="illustration-circle circle-1"></div>
+                        <div class="illustration-circle circle-2"></div>
+                        <div class="illustration-circle circle-3"></div>
+                        <div class="globe">🌐</div>
+                    </div>
+
+                </div>
+
+                <!-- QUICK ACCESS -->
+                <div class="section-header">
+                    <div>
+                        <span class="section-subtitle">JELAJAHI</span>
+                        <h2>Menu Utama</h2>
+                    </div>
+                </div>
+
+                <div class="quick-grid">
+
+                    <article class="quick-card shortcut-btn" data-page="informasi">
+                        <div class="quick-icon blue">📰</div>
+                        <h3>Informasi Digital</h3>
+                        <p>
+                            Informasi teknologi dan perkembangan
+                            dunia digital.
+                        </p>
+                        <span class="card-action">Lihat informasi →</span>
+                    </article>
+
+                    <article class="quick-card shortcut-btn" data-page="literasi">
+                        <div class="quick-icon green">💡</div>
+                        <h3>Literasi Digital</h3>
+                        <p>
+                            Meningkatkan pemahaman dalam
+                            menggunakan teknologi.
+                        </p>
+                        <span class="card-action">Mulai belajar →</span>
+                    </article>
+
+                    <article class="quick-card shortcut-btn" data-page="keamanan">
+                        <div class="quick-icon orange">🔐</div>
+                        <h3>Keamanan Siber</h3>
+                        <p>
+                            Memahami keamanan data dan
+                            perlindungan internet.
+                        </p>
+                        <span class="card-action">Pelajari →</span>
+                    </article>
+
+                </div>
+
+                <!-- TECHNOLOGY SECTION -->
+                <div class="section-header">
+                    <div>
+                        <span class="section-subtitle">WAWASAN DIGITAL</span>
+                        <h2>Teknologi untuk Masa Depan</h2>
+                    </div>
+                </div>
+
+                <div class="technology-panel">
+
+                    <div class="technology-content">
+                        <h3>Transformasi Digital</h3>
+
+                        <p>
+                            Teknologi digital membawa perubahan dalam
+                            berbagai aspek kehidupan, mulai dari
+                            pendidikan, komunikasi, pelayanan publik,
+                            hingga aktivitas ekonomi masyarakat.
+                        </p>
+
+                        <button class="secondary-button shortcut-btn"
+                            data-page="literasi">
+                            Pelajari Literasi Digital →
+                        </button>
+                    </div>
+
+                    <div class="technology-icons">
+                        <div>💻</div>
+                        <div>📱</div>
+                        <div>☁️</div>
+                    </div>
+
+                </div>
+
+                <!-- LATEST NEWS -->
+                <div class="section-header">
+                    <div>
+                        <span class="section-subtitle">BACaan PILIHAN</span>
+                        <h2>Informasi & Edukasi</h2>
+                    </div>
+
+                    <button class="text-button shortcut-btn"
+                        data-page="informasi">
+                        Lihat Semua →
+                    </button>
+                </div>
+
+                <div class="news-grid">
+
+                    <article class="news-card">
+                        <div class="news-image news-image-1">
+                            <span>💻</span>
+                        </div>
+                        <div class="news-body">
+                            <span class="news-category">TEKNOLOGI</span>
+                            <h3>Perkembangan Teknologi Digital</h3>
+                            <p>
+                                Mengenal perkembangan teknologi
+                                dan pengaruhnya dalam kehidupan.
+                            </p>
+                            <button class="news-read shortcut-btn"
+                                data-page="informasi">
+                                Baca Selengkapnya →
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image news-image-2">
+                            <span>🛡️</span>
+                        </div>
+                        <div class="news-body">
+                            <span class="news-category">KEAMANAN</span>
+                            <h3>Melindungi Data Pribadi</h3>
+                            <p>
+                                Pentingnya menjaga privasi dan
+                                keamanan informasi di internet.
+                            </p>
+                            <button class="news-read shortcut-btn"
+                                data-page="keamanan">
+                                Baca Selengkapnya →
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image news-image-3">
+                            <span>🌐</span>
+                        </div>
+                        <div class="news-body">
+                            <span class="news-category">LITERASI</span>
+                            <h3>Bijak Menggunakan Internet</h3>
+                            <p>
+                                Menggunakan internet secara sehat,
+                                bijak, dan bertanggung jawab.
+                            </p>
+                            <button class="news-read shortcut-btn"
+                                data-page="literasi">
+                                Baca Selengkapnya →
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- INFORMASI DIGITAL -->
+            <section class="page" id="informasi">
+
+                <div class="page-heading">
+                    <span class="section-subtitle">PUSAT INFORMASI</span>
+                    <h1>Informasi Digital</h1>
+
+                    <p>
+                        Mengenal perkembangan teknologi informasi
+                        dan transformasi digital.
+                    </p>
+                </div>
+
+                <div class="quick-grid">
+
+                    <article class="quick-card">
+                        <div class="quick-icon blue">💻</div>
+                        <h3>Transformasi Digital</h3>
+                        <p>
+                            Pemanfaatan teknologi untuk meningkatkan
+                            efisiensi dan kualitas aktivitas.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon green">📡</div>
+                        <h3>Teknologi Informasi</h3>
+                        <p>
+                            Perkembangan sistem dan teknologi
+                            dalam kehidupan sehari-hari.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon orange">🤖</div>
+                        <h3>Kecerdasan Buatan</h3>
+                        <p>
+                            Mengenal perkembangan artificial
+                            intelligence dan pemanfaatannya.
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="article-panel">
+                    <h2>Perkembangan Dunia Digital</h2>
+
+                    <p>
+                        Perkembangan teknologi informasi telah
+                        mengubah cara masyarakat mendapatkan
+                        informasi, berkomunikasi, bekerja,
+                        dan belajar. Pemanfaatan teknologi digital
+                        dapat membantu meningkatkan produktivitas
+                        dan membuka berbagai peluang baru.
+                    </p>
+
+                    <p>
+                        Oleh karena itu, pemahaman terhadap
+                        perkembangan teknologi menjadi penting
+                        agar masyarakat dapat beradaptasi dengan
+                        perubahan zaman.
+                    </p>
+                </div>
+
+            </section>
+
+            <!-- LITERASI DIGITAL -->
+            <section class="page" id="literasi">
+
+                <div class="page-heading">
+                    <span class="section-subtitle">EDUKASI DIGITAL</span>
+                    <h1>Literasi Digital</h1>
+
+                    <p>
+                        Membangun kemampuan menggunakan teknologi
+                        secara cerdas, aman, dan bertanggung jawab.
+                    </p>
+                </div>
+
+                <div class="quick-grid">
+
+                    <article class="quick-card">
+                        <div class="quick-icon blue">🔎</div>
+                        <h3>Cakap Digital</h3>
+                        <p>
+                            Memahami dan menggunakan teknologi
+                            untuk kegiatan produktif.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon green">🤝</div>
+                        <h3>Etika Digital</h3>
+                        <p>
+                            Menghargai orang lain dalam
+                            berinteraksi di dunia digital.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon orange">📰</div>
+                        <h3>Informasi Valid</h3>
+                        <p>
+                            Memeriksa kebenaran informasi
+                            sebelum menyebarkannya.
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="article-panel">
+                    <h2>Tips Menjadi Pengguna Digital yang Bijak</h2>
+
+                    <ul class="tips-list">
+                        <li>Periksa kebenaran informasi sebelum membagikannya.</li>
+                        <li>Jangan membagikan data pribadi sembarangan.</li>
+                        <li>Gunakan media sosial secara positif.</li>
+                        <li>Hormati privasi orang lain.</li>
+                        <li>Gunakan teknologi untuk belajar dan berkarya.</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <!-- KEAMANAN SIBER -->
+            <section class="page" id="keamanan">
+
+                <div class="page-heading">
+                    <span class="section-subtitle">KEAMANAN INFORMASI</span>
+                    <h1>Keamanan Siber</h1>
+
+                    <p>
+                        Melindungi diri dan informasi pribadi
+                        saat beraktivitas di dunia digital.
+                    </p>
+                </div>
+
+                <div class="quick-grid">
+
+                    <article class="quick-card">
+                        <div class="quick-icon blue">🔑</div>
+                        <h3>Password Aman</h3>
+                        <p>
+                            Gunakan kata sandi kuat dan berbeda
+                            untuk setiap akun.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon green">🛡️</div>
+                        <h3>Perlindungan Data</h3>
+                        <p>
+                            Hindari membagikan data sensitif
+                            kepada pihak yang tidak dikenal.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <div class="quick-icon orange">⚠️</div>
+                        <h3>Waspada Phishing</h3>
+                        <p>
+                            Kenali tautan dan pesan mencurigakan
+                            yang berpotensi penipuan.
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="article-panel">
+                    <h2>Langkah Menjaga Keamanan Digital</h2>
+
+                    <ul class="tips-list">
+                        <li>Aktifkan verifikasi dua langkah.</li>
+                        <li>Hindari mengklik tautan yang mencurigakan.</li>
+                        <li>Perbarui sistem dan aplikasi secara berkala.</li>
+                        <li>Gunakan jaringan internet yang aman.</li>
+                        <li>Jangan berikan kode OTP kepada siapa pun.</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <!-- TENTANG KAMI -->
+            <section class="page" id="tentang">
+
+                <div class="page-heading">
+                    <span class="section-subtitle">PROFIL WEBSITE</span>
+                    <h1>Tentang Digital Kaltim</h1>
+
+                    <p>
+                        Mengenal tujuan dan latar belakang
+                        pengembangan portal Digital Kaltim.
+                    </p>
+                </div>
+
+                <div class="about-panel">
+                    <div class="about-logo">D<span>K</span></div>
+
+                    <h2>Digital Kaltim</h2>
+
+                    <p>
+                        Digital Kaltim merupakan proyek website
+                        edukasi independen yang berfokus pada
+                        informasi teknologi, literasi digital,
+                        dan keamanan informasi bagi masyarakat
+                        Kalimantan Timur.
+                    </p>
+
+                    <p>
+                        Website ini dikembangkan sebagai media
+                        pembelajaran dan pengenalan teknologi
+                        digital serta bagian dari proyek
+                        pengembangan website.
+                    </p>
+                </div>
+
+                <div class="quick-grid about-features">
+
+                    <article class="quick-card">
+                        <h3>Visi</h3>
+                        <p>
+                            Mendorong masyarakat yang adaptif
+                            terhadap perkembangan teknologi digital.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <h3>Misi</h3>
+                        <p>
+                            Menyediakan informasi dan edukasi
+                            teknologi yang mudah dipahami.
+                        </p>
+                    </article>
+
+                    <article class="quick-card">
+                        <h3>Tujuan</h3>
+                        <p>
+                            Meningkatkan wawasan dan kesadaran
+                            literasi digital masyarakat.
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="footer-brand">
+                    DIGITAL<span>KALTIM</span>
+                </div>
+
+                <p>
+                    Portal Informasi dan Literasi Digital
+                    Kalimantan Timur
+                </p>
+
+                <div class="footer-line"></div>
+
+                <small>
+                    © 2026 Digital Kaltim.
+                    Proyek edukasi independen, bukan situs resmi pemerintah.
+                </small>
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
